@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="../src/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="header flex py-[23px] sm:px-0 px-[16px]">
+      <div class="navbar flex items-center mr-auto ml-auto justify-between sm:w-[1418px] w-[390px]">
+        <a href="syte-logo"><img src="../images/Frame 10.svg" alt="" /></a>
+
+        <ul class="list gap-[60px] font-sans text-[#71717A] p-0 hidden sm:flex">
+          <li class="hover:text-[black]"><a href="../index.html">Home</a></li>
+          <li class="hover:text-[black]"><a href="./about.html">Pages</a></li>
+          <li class="hover:text-[black]"><a href="./services.html">Event</a></li>
+          <li class="hover:text-[black]"><a href="./event.html">Partfolio</a></li>
+          <li class="hover:text-[black]"><a href="./upcoming.html">Blog</a></li>
+        </ul>
+
+        <div class="nav-btns gap-[30px] hidden sm:flex">
+          <button class="nav-btn border-[1px] py-[12px] px-[38px] rounded-[100px] border-[#FFD67E] text-[18px] font-bold cursor-pointer">Log in</button>
+          <button class="nav-btn py-[12px] px-[38px] rounded-[100px] bg-[#FFD67E] text-[18px] font-bold cursor-pointer">Sign Up</button>
+        </div>
+
+        <button class="sm:hidden w-8 h-8 bg-[#FFD67E] rounded-[50%] flex p-[5px]"><img src="../images/burger.svg" alt="" /></button>
+      </div>
+    </section>
+
+    <section class="partfolio flex sm:py-[100px] py-[36px] bg-[#FFF9ED]">
+      <div class="main-partfolio flex flex-col items-center ml-auto mr-auto">
+        <h2 class="text-center sm:text-7xl text-[36px] font-[Marcellus] sm:w-[1099px] w-[342px] mt-[24px] sm:mb-[48px] mb-[24px]">Our Portfolio</h2>
+
+        <div class="flex flex-col sm:flex-row items-center sm:gap-[32px] gap-[24px]">
+          <img class="sm:w-[695px] sm:h-auto w-[342px] h-auto" src="../images/partfolio-1.png" alt="" />
+          <div>
+            <h3 class="sm:text-6xl text-[28px] font-sans">Annual Sales Conference</h3>
+            <span class="inline-block sm:text-[30px] text-[18px] sm:mt-[24px] mt-[18px]">Client : XYZ Corporate</span>
+            <p class="sm:text-[18px] font-bold text-[#525252] sm:mt-[32px] mt-[24px] sm:w-[693px] w-[342px]">
+              <span class="sm:text-[18px] font-bold text-[black]">Description :</span> Etiam pharetra convallis felis, et sodales risus tincidunt ut. Proin scelerisque, sem eget cursus sollicitudin,
+              nibh elit convallis erat, id fringilla arcu nisl non dui. In ultricies sollicitudin nisi. Maecenas ac justo et dolor condimentum condimentum
+            </p>
+
+            <button class="sm:py-[15px] sm:px[25px] py-[12px] px-[22px] border-1 border-[#D4D4D4] rounded-[100px] mt-[32px] flex items-center gap-2 cursor-pointer">
+              Read More
+              <svg width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0.21875 5.98577C0.21875 5.80995 0.288592 5.64134 0.412912 5.51701C0.537233 5.39269 0.705847 5.32285 0.881663 5.32285L16.5171 5.32285L12.3448 1.1518C12.2203 1.02733 12.1503 0.858498 12.1503 0.682461C12.1503 0.506423 12.2203 0.337595 12.3448 0.213118C12.4692 0.0886406 12.6381 0.0187105 12.8141 0.0187105C12.9901 0.0187105 13.159 0.0886406 13.2834 0.213118L18.5867 5.51642C18.6485 5.578 18.6975 5.65116 18.7309 5.73169C18.7643 5.81223 18.7815 5.89857 18.7815 5.98576C18.7815 6.07296 18.7643 6.1593 18.7309 6.23984C18.6975 6.32037 18.6485 6.39353 18.5867 6.45511L13.2834 11.7584C13.159 11.8829 12.9901 11.9528 12.8141 11.9528C12.6381 11.9528 12.4692 11.8829 12.3448 11.7584C12.2203 11.6339 12.1503 11.4651 12.1503 11.2891C12.1503 11.113 12.2203 10.9442 12.3448 10.8197L16.5171 6.64868L0.881663 6.64868C0.705847 6.64868 0.537233 6.57884 0.412912 6.45451C0.288592 6.33019 0.21875 6.16158 0.21875 5.98577Z"
+                  fill="black"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="hidden sm:flex flex-row-reverse items-center sm:gap-[32px] gap-[24px] mt-[130px]">
+          <img class="sm:w-[695px] sm:h-auto w-[342px] h-auto" src="../images/partfolio-2.png" alt="" />
+          <div>
+            <h3 class="sm:text-6xl text-[28px] font-sans">Elegant Garden Wedding</h3>
+            <span class="inline-block sm:text-[30px] text-[18px] sm:mt-[24px] mt-[18px]">Client : John and Emily Smith</span>
+            <p class="sm:text-[18px] font-bold text-[#525252] sm:mt-[32px] mt-[24px] sm:w-[693px] w-[342px]">
+              <span class="sm:text-[18px] font-bold text-[black]">Description :</span> Etiam pharetra convallis felis, et sodales risus tincidunt ut. Proin scelerisque, sem eget cursus sollicitudin,
+              nibh elit convallis erat, id fringilla arcu nisl non dui. In ultricies sollicitudin nisi. Maecenas ac justo et dolor condimentum condimentum
+            </p>
+
+            <button class="sm:py-[15px] sm:px[25px] py-[12px] px-[22px] border-1 border-[#D4D4D4] rounded-[100px] mt-[32px] flex items-center gap-2 cursor-pointer">
+              Read More
+              <svg width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0.21875 5.98577C0.21875 5.80995 0.288592 5.64134 0.412912 5.51701C0.537233 5.39269 0.705847 5.32285 0.881663 5.32285L16.5171 5.32285L12.3448 1.1518C12.2203 1.02733 12.1503 0.858498 12.1503 0.682461C12.1503 0.506423 12.2203 0.337595 12.3448 0.213118C12.4692 0.0886406 12.6381 0.0187105 12.8141 0.0187105C12.9901 0.0187105 13.159 0.0886406 13.2834 0.213118L18.5867 5.51642C18.6485 5.578 18.6975 5.65116 18.7309 5.73169C18.7643 5.81223 18.7815 5.89857 18.7815 5.98576C18.7815 6.07296 18.7643 6.1593 18.7309 6.23984C18.6975 6.32037 18.6485 6.39353 18.5867 6.45511L13.2834 11.7584C13.159 11.8829 12.9901 11.9528 12.8141 11.9528C12.6381 11.9528 12.4692 11.8829 12.3448 11.7584C12.2203 11.6339 12.1503 11.4651 12.1503 11.2891C12.1503 11.113 12.2203 10.9442 12.3448 10.8197L16.5171 6.64868L0.881663 6.64868C0.705847 6.64868 0.537233 6.57884 0.412912 6.45451C0.288592 6.33019 0.21875 6.16158 0.21875 5.98577Z"
+                  fill="black"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="hidden sm:flex items-center sm:gap-[32px] gap-[24px] mt-[130px]">
+          <img class="sm:w-[695px] sm:h-auto w-[342px] h-auto" src="../images/partfolio-3.png" alt="" />
+          <div>
+            <h3 class="sm:text-6xl text-[28px] font-sans">Multi-Day Family Reunion</h3>
+            <span class="inline-block sm:text-[30px] text-[18px] sm:mt-[24px] mt-[18px]">Client : Smith Family Reunion</span>
+            <p class="sm:text-[18px] font-bold text-[#525252] sm:mt-[32px] mt-[24px] sm:w-[693px] w-[342px]">
+              <span class="sm:text-[18px] font-bold text-[black]">Description :</span> Etiam pharetra convallis felis, et sodales risus tincidunt ut. Proin scelerisque, sem eget cursus sollicitudin,
+              nibh elit convallis erat, id fringilla arcu nisl non dui. In ultricies sollicitudin nisi. Maecenas ac justo et dolor condimentum condimentum
+            </p>
+
+            <button class="sm:py-[15px] sm:px[25px] py-[12px] px-[22px] border-1 border-[#D4D4D4] rounded-[100px] mt-[32px] flex items-center gap-2 cursor-pointer">
+              Read More
+              <svg width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0.21875 5.98577C0.21875 5.80995 0.288592 5.64134 0.412912 5.51701C0.537233 5.39269 0.705847 5.32285 0.881663 5.32285L16.5171 5.32285L12.3448 1.1518C12.2203 1.02733 12.1503 0.858498 12.1503 0.682461C12.1503 0.506423 12.2203 0.337595 12.3448 0.213118C12.4692 0.0886406 12.6381 0.0187105 12.8141 0.0187105C12.9901 0.0187105 13.159 0.0886406 13.2834 0.213118L18.5867 5.51642C18.6485 5.578 18.6975 5.65116 18.7309 5.73169C18.7643 5.81223 18.7815 5.89857 18.7815 5.98576C18.7815 6.07296 18.7643 6.1593 18.7309 6.23984C18.6975 6.32037 18.6485 6.39353 18.5867 6.45511L13.2834 11.7584C13.159 11.8829 12.9901 11.9528 12.8141 11.9528C12.6381 11.9528 12.4692 11.8829 12.3448 11.7584C12.2203 11.6339 12.1503 11.4651 12.1503 11.2891C12.1503 11.113 12.2203 10.9442 12.3448 10.8197L16.5171 6.64868L0.881663 6.64868C0.705847 6.64868 0.537233 6.57884 0.412912 6.45451C0.288592 6.33019 0.21875 6.16158 0.21875 5.98577Z"
+                  fill="black"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="hidden sm:flex flex-row-reverse items-center sm:gap-[32px] gap-[24px] mt-[130px]">
+          <img class="sm:w-[695px] sm:h-auto w-[342px] h-auto" src="../images/partfolio-2.png" alt="" />
+          <div>
+            <h3 class="sm:text-6xl text-[28px] font-sans">Elegant Garden Wedding</h3>
+            <span class="inline-block sm:text-[30px] text-[18px] sm:mt-[24px] mt-[18px]">Client : John and Emily Smith</span>
+            <p class="sm:text-[18px] font-bold text-[#525252] sm:mt-[32px] mt-[24px] sm:w-[693px] w-[342px]">
+              <span class="sm:text-[18px] font-bold text-[black]">Description :</span> Etiam pharetra convallis felis, et sodales risus tincidunt ut. Proin scelerisque, sem eget cursus sollicitudin,
+              nibh elit convallis erat, id fringilla arcu nisl non dui. In ultricies sollicitudin nisi. Maecenas ac justo et dolor condimentum condimentum
+            </p>
+
+            <button class="sm:py-[15px] sm:px[25px] py-[12px] px-[22px] border-1 border-[#D4D4D4] rounded-[100px] mt-[32px] flex items-center gap-2 cursor-pointer">
+              Read More
+              <svg width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0.21875 5.98577C0.21875 5.80995 0.288592 5.64134 0.412912 5.51701C0.537233 5.39269 0.705847 5.32285 0.881663 5.32285L16.5171 5.32285L12.3448 1.1518C12.2203 1.02733 12.1503 0.858498 12.1503 0.682461C12.1503 0.506423 12.2203 0.337595 12.3448 0.213118C12.4692 0.0886406 12.6381 0.0187105 12.8141 0.0187105C12.9901 0.0187105 13.159 0.0886406 13.2834 0.213118L18.5867 5.51642C18.6485 5.578 18.6975 5.65116 18.7309 5.73169C18.7643 5.81223 18.7815 5.89857 18.7815 5.98576C18.7815 6.07296 18.7643 6.1593 18.7309 6.23984C18.6975 6.32037 18.6485 6.39353 18.5867 6.45511L13.2834 11.7584C13.159 11.8829 12.9901 11.9528 12.8141 11.9528C12.6381 11.9528 12.4692 11.8829 12.3448 11.7584C12.2203 11.6339 12.1503 11.4651 12.1503 11.2891C12.1503 11.113 12.2203 10.9442 12.3448 10.8197L16.5171 6.64868L0.881663 6.64868C0.705847 6.64868 0.537233 6.57884 0.412912 6.45451C0.288592 6.33019 0.21875 6.16158 0.21875 5.98577Z"
+                  fill="black"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="partfolio overflow-hidden sm:px-0 px-[16px] sm:mt-[130px] mt-[48px]">
+      <h2 class="sm:text-7xl text-[36px] text-center font-serif">Highlights That Define Excellence.</h2>
+      <p class="sm:text-[18px] text-[16px] text-[#5C5C5C] text-center sm:w-[1039px] w-[342px] ml-auto mr-auto mt-[24px] mb-[20px]">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris faucibus turpis nunc, sit amet lacinia sapien tempor vel. Morbi aliquet aliquam lorem, eu interdum mauris suscipit in. Cras
+        consequat auctor diam.
+      </p>
+      <div class="flex w-[max-content] ml-auto mr-auto gap-[30px]">
+        <img class="hidden sm:block" src="../images/partfolio/partfolio-1.png" alt="" />
+        <div class="sm:mt-0 mt-[48px]">
+          <img class="sm:w-[695px] h-auto w-[342px]" src="../images/partfolio/partfolio-2.png" alt="" />
+          <div class="mt-[24px] flex flex-col sm:items-start items-center">
+            <span class="sm:text-[24px] text-[20px]">PORTFOLIO</span>
+            <p class="sm:text-7xl text-[36px] mt-[12px] font-serif">PORTFOLIO</p>
+            <a class="flex gap-2 items-center mt-[35px]" href="#"
+              >Read More
+              <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0.719726 5.99999C0.719726 5.82417 0.789569 5.65556 0.913889 5.53124C1.03821 5.40692 1.20682 5.33707 1.38264 5.33707L17.0181 5.33707L12.8457 1.16602C12.7213 1.04155 12.6513 0.872719 12.6513 0.696682C12.6513 0.520645 12.7213 0.351817 12.8457 0.227339C12.9702 0.102862 13.139 0.0329317 13.3151 0.0329317C13.4911 0.0329317 13.6599 0.102862 13.7844 0.227339L19.0877 5.53064C19.1495 5.59222 19.1984 5.66538 19.2319 5.74591C19.2653 5.82645 19.2825 5.91279 19.2825 5.99999C19.2825 6.08718 19.2653 6.17352 19.2319 6.25406C19.1984 6.3346 19.1495 6.40775 19.0877 6.46933L13.7844 11.7726C13.6599 11.8971 13.4911 11.967 13.3151 11.967C13.139 11.967 12.9702 11.8971 12.8457 11.7726C12.7213 11.6482 12.6513 11.4793 12.6513 11.3033C12.6513 11.1273 12.7213 10.9584 12.8457 10.8339L17.0181 6.6629L1.38264 6.6629C1.20682 6.6629 1.03821 6.59306 0.913889 6.46874C0.789569 6.34442 0.719726 6.1758 0.719726 5.99999Z"
+                  fill="#1C1C1C"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <img class="hidden sm:block" src="../images/partfolio/partfolio-3.png" alt="" />
+        <img class="hidden sm:block" src="../images/partfolio/partfolio-4.png" alt="" />
+      </div>
+    </section>
+
+    <section class="footer flex sm:py-[130px] py-[48px]" style="background: linear-gradient(0deg, rgba(35, 36, 43, 1) 0%, rgba(16, 16, 22, 1) 100%)">
+      <div class="sm:flex-row flex flex-col sm:w-[1420px] mr-auto ml-auto justify-between items-center">
+        <div class="flex flex-col sm:items-start items-center">
+          <h2 class="leading-[120%] sm:text-7xl text-[38px] text-white sm:w-[648px] w-[342px] sm:text-start text-center">
+            Crafting <span class="bg-gradient-to-r from-[#fbd27c] to-[#3d3626] bg-clip-text text-transparent">Extraordinary</span> <br class="sm:hidden" />
+            Events Together
+          </h2>
+          <p class="text-white sm:text-[18px] text-[16px] sm:w-[648px] w-[324px] mt-[24px] sm:text-start text-center">
+            Adipiscing elit, sed do euismod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitacion ullamco. sed do euismod tempor incidunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitacion ullamco  
+          </p>
+          <div class="flex gap-[18px] mt-[24px]">
+            <a href="#"><img src="../images/foter-add-1.svg" alt="" /></a>
+            <a href="#"><img src="../images/foter-add-2.svg" alt="" /></a>
+            <a href="#"><img src="../images/foter-add-3.svg" alt="" /></a>
+          </div>
+        </div>
+
+        <div class="sm:flex-row flex flex-col justify-between sm:gap-[100px] gap-[48px] sm:mt-0 mt-[48px] sm:items-start items-center">
+          <div class="flex flex-col sm:items-start items-center">
+            <span class="bg-gradient-to-r from-[#fbd27c] to-[#3d3626] bg-clip-text text-transparent sm:text-[24px] text-[20px]">Links</span>
+            <ul class="flex flex-col gap-[24px] sm:text-[18px] text-[16px] text-[#D4D4D4] mt-[10px] sm:items-start items-center">
+              <li><a href="#">Homepage</a></li>
+              <li><a href="#">Pages</a></li>
+              <li><a href="#">Event</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+
+          <div class="justify-items-center">
+            <h3 class="sm:text-[32px] text-[22px] text-[#FFD67E]">Subscribe For Our Blog & Article</h3>
+            <div class="flex sm:w-[472px] w-342px bg-[#262626] border-1 border-[#404040] rounded-[100px] p-[6px] sm:mt-[28px] mt-[18px]">
+              <input class="text-white w-full pl-[23px] outline-0 mr-[10px]" placeholder="Your email here" type="text" />
+              <button class="bg-[#FFD67E] sm:px-[38px] sm:py-[16px] px-[22px] py-[10px] rounded-[100px]">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner flex bg-[#171717] sm:py-[24px] py-[11px]">
+      <div class="sm:w-[1420px] w-[342px] sm:flex-row flex flex-col sm:gap-0 gap-[18px] ml-auto mr-auto items-center justify-between">
+        <a href="#"><img src="../images/banner-logo.svg" alt="" /></a>
+        <span class="sm:text-[18px] text-[14px] text-[#D6D3D1]">Copyright © 2024 Rometheme. All Rights Reserved.</span>
+      </div>
+    </section>
+  </body>
+</html>
